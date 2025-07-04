@@ -20,22 +20,29 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
+        url: '/favicon.ico',
+        rel: 'icon',
+        type: 'image/x-icon',
+      },
+      {
         url: '/images/apple-touch-icon.png',
         sizes: '180x180',
         type: 'image/png',
-        rel: 'apple-touch-icon',
+        rel: 'apple-icon',
       },
       {
         url: '/images/favicon-32x32.png',
         sizes: '32x32',
         type: 'image/png',
+        rel: 'icon',
       },
       {
-        url: '/images/favicon-16x16.png.png',
+        url: '/images/favicon-16x16.png',
         sizes: '16x16',
         type: 'image/png',
+        rel: 'icon',
       },
-      { url: '/public/images/site.webmanifest', rel: 'manifest' },
+      { url: '/images/site.webmanifest', rel: 'manifest' },
     ],
   },
 };
