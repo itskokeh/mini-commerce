@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "id": "apple-1",
+      "name": "Apple",
+      "price_NGN": 7000.45,
+      "url": "https://cdn.kokeh.dev/images/apple.webp",
+      "description": "Fresh apple fruit directly for the farm guaranteed to give you a refreshing feeling"
+    },
+    {
+      "id": "apple-2",
+      "name": "Apple 2",
+      "price_NGN": 1300.6,
+      "url": "https://cdn.kokeh.dev/images/apple2.webp",
+      "description": "Fresh apple fruit directly for the farm guaranteed to give you a refreshing feeling"
+    }
+  ]
+}
