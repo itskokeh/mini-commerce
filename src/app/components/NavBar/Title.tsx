@@ -1,8 +1,12 @@
+import Link from 'next/link'
+
 export default function Title() {
   return (
-    <h1 className="text-lg font-bold justify-">
-      Fruity<span className="text-accent">Store</span>
-      <span className="secondary">.</span>
-    </h1>
+    <Link href="/">
+      <h1 className="text-2xl font-bold">
+        Fruity<span className="text-accent">Store</span>
+        <span className="secondary">.</span>
+      </h1>
+    </Link>
   );
 }

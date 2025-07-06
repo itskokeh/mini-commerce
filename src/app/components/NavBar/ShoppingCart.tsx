@@ -1,9 +1,9 @@
-import { ShoppingCartIcon } from 'lucide-react';
+import { ShoppingBasketIcon } from 'lucide-react';
 
 export default function ShoppingCart() {
   return (
     <div>
-      <ShoppingCartIcon />
+      <ShoppingBasketIcon />
     </div>
   );
 }

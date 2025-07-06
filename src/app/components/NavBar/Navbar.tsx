@@ -7,26 +7,26 @@ import Wishlist from './Wishlist';
 
 export default function Navbar() {
   return (
-    <header className="flex justify-between p-2 bg-primary-light w-screen">
+    <header className="flex justify-between p-2 bg-primary-light w-screen pl-4 pr-4 items-center">
       {/* Title */}
       <div className="rounded-lg p-1 cursor-pointer">
         <Title />
       </div>
 
       {/* Nav Links */}
-      <nav className="flex gap-4 rad">
-        <Link href="/" className="hover:bg-primary-dark e rounded-lg p-1">
+      <nav className="flex gap-4 text-lg">
+        <Link href="/" className="hover:text-accent rounded-lg p-1">
           Home
         </Link>
         <Link
           href="/#about"
-          className="hover:bg-primary-dark hover:text-background rounded-lg p-1"
+          className="hover:text-accent rounded-lg p-1"
         >
           About
         </Link>
         <Link
           href="/blog"
-          className="hover:bg-primary-dark hover:text-background rounded-lg p-1"
+          className="hover:text-accent rounded-lg p-1"
         >
           Blog
         </Link>
@@ -34,17 +34,21 @@ export default function Navbar() {
 
       {/* Icons */}
       <div className="flex gap-2">
-        <Profile />
-        <SearchBtn />
+      {/* <Profile /> */}
+        <Link
+          href="/search"
+          className='hover:text-accent p-1'>
+          <SearchBtn />
+        </Link>
         <Link
           href="/wishlist"
-          className="hover:bg-primary-dark hover:text-background rounded-lg p-1 hover:underline hover:underline-offset-4"
+          className="hover:text-accent p-1"
         >
           <Wishlist />
         </Link>
         <Link
           href="/cart"
-          className="hover:bg-primary-dark hover:text-background rounded-lg p-1 hover:underline hover:underline-offset-4"
+          className="hover:text-accent p-1"
         >
           <ShoppingCart />
         </Link>
