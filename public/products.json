@@ -1,18 +1,139 @@
 {
   "products": [
     {
-      "id": "apple-1",
+      "id": "apple",
       "name": "Apple",
-      "price_NGN": 7000.45,
-      "url": "https://cdn.kokeh.dev/images/apple.webp",
-      "description": "Fresh apple fruit directly for the farm guaranteed to give you a refreshing feeling"
+      "price_NGN": 1500.45,
+      "urls": [
+        "https://cdn.kokeh.dev/images/apple.webp",
+        "https://cdn.kokeh.dev/images/apple2.webp",
+        "https://cdn.kokeh.dev/images/group-apple.webp"
+      ],
+      "description": "Fresh Apples from the farm guaranteed to give you a refreshing feeling"
     },
     {
-      "id": "apple-2",
-      "name": "Apple 2",
-      "price_NGN": 1300.6,
-      "url": "https://cdn.kokeh.dev/images/apple2.webp",
-      "description": "Fresh apple fruit directly for the farm guaranteed to give you a refreshing feeling"
+      "id": "avocado",
+      "name": "Avocado",
+      "price_NGN": 2700.6,
+      "urls": [
+        "https://cdn.kokeh.dev/images/avacado.webp",
+        "https://cdn.kokeh.dev/images/avacado2.webp",
+        "https://cdn.kokeh.dev/images/avacado3.webp"
+      ],
+      "description": "Fresh Avocados from the farm guaranteed to give you a refreshing feeling"
+    },
+    {
+      "id": "banana",
+      "name": "Bananas",
+      "price_NGN": 3998.0,
+      "urls": [
+        "https://cdn.kokeh.dev/images/banana.webp",
+        "https://cdn.kokeh.dev/images/banana2.webp",
+        "https://cdn.kokeh.dev/images/banana3.webp",
+        "https://cdn.kokeh.dev/images/banana4.webp"
+      ],
+      "description": "Fresh Bananas from the farm guaranteed to give you a refreshing feeling"
+    },
+    {
+      "id": "guava",
+      "name": "Guava",
+      "price_NGN": 700.0,
+      "urls": [
+        "https://cdn.kokeh.dev/images/guava.webp",
+        "https://cdn.kokeh.dev/images/guava-group.webp",
+        "https://cdn.kokeh.dev/images/guava-group2.webp"
+      ],
+      "description": "Fresh Guavas from the farm guaranteed to give you a refreshing feeling"
+    },
+    {
+      "id": "kiwi",
+      "name": "Kiwi",
+      "price_NGN": 2500.0,
+      "urls": [
+        "https://cdn.kokeh.dev/images/kiwi.webp",
+        "https://cdn.kokeh.dev/images/kiwi-group.webp",
+        "https://cdn.kokeh.dev/images/kiwi2.webp"
+      ],
+      "description": "Fresh Kiwi from the farm guaranteed to give you a refreshing feeling"
+    },
+    {
+      "id": "mango",
+      "name": "Mango",
+      "price_NGN": 1000.0,
+      "urls": [
+        "https://cdn.kokeh.dev/images/mango.webp",
+        "https://cdn.kokeh.dev/images/mango-group.webp",
+        "https://cdn.kokeh.dev/images/mango-group2.webp",
+        "https://cdn.kokeh.dev/images/mango2.webp"
+      ],
+      "description": "Fresh Mangoes from the farm guaranteed to give you a refreshing feeling"
+    },
+    {
+      "id": "orange",
+      "name": "Orange",
+      "price_NGN": 500.0,
+      "urls": [
+        "https://cdn.kokeh.dev/images/orange.webp",
+        "https://cdn.kokeh.dev/images/orange-group.webp",
+        "https://cdn.kokeh.dev/images/orange-group2.webp",
+        "https://cdn.kokeh.dev/images/orange2.webp",
+        "https://cdn.kokeh.dev/images/orange3.webp"
+      ],
+      "description": "Fresh Orange from the farm guaranteed to give you a refreshing feeling"
+    },
+    {
+      "id": "pineapple",
+      "name": "Pineapple",
+      "price_NGN": 1700.0,
+      "urls": [
+        "https://cdn.kokeh.dev/images/pineapple.webp",
+        "https://cdn.kokeh.dev/images/pinaapple2.webp"
+      ],
+      "description": "Fresh Pineapple from the farm guaranteed to give you a refreshing feeling"
+    },
+    {
+      "id": "sour-sop",
+      "name": "Sour-Sop",
+      "price_NGN": 4000.0,
+      "urls": [
+        "https://cdn.kokeh.dev/images/soursop.webp",
+        "https://cdn.kokeh.dev/images/soursop-group.webp",
+        "https://cdn.kokeh.dev/images/soursop2.webp"
+      ],
+      "description": "Fresh Sour-Sop from the farm guaranteed to give you a refreshing feeling"
+    },
+    {
+      "id": "strawberry",
+      "name": "Strawberry",
+      "price_NGN": 3500.0,
+      "urls": [
+        "https://cdn.kokeh.dev/images/strawberry.webp",
+        "https://cdn.kokeh.dev/images/strawberry-group.webp",
+        "https://cdn.kokeh.dev/images/strawberry1.webp"
+      ],
+      "description": "Fresh Strawberry from the farm guaranteed to give you a refreshing feeling"
+    },
+    {
+      "id": "tangerine",
+      "name": "Tangerine",
+      "price_NGN": 800.0,
+      "urls": [
+        "https://cdn.kokeh.dev/images/tangerine.webp",
+        "https://cdn.kokeh.dev/images/tangerine3.webp",
+        "https://cdn.kokeh.dev/images/tangerine2.webp"
+      ],
+      "description": "Fresh Tangerine from the farm guaranteed to give you a refreshing feeling"
+    },
+    {
+      "id": "watermelon",
+      "name": "Watermelon",
+      "price_NGN": 2680.0,
+      "urls": [
+        "https://cdn.kokeh.dev/images/watermelon.webp",
+        "https://cdn.kokeh.dev/images/watermelon2.webp",
+        "https://cdn.kokeh.dev/images/watermelon3.webp"
+      ],
+      "description": "Fresh Watermelon from the farm guaranteed to give you a refreshing feeling"
     }
   ]
 }
