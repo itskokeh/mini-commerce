@@ -5,9 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next-on-pages --outdir=./dist --skip-build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "prepare:pages": "next-on-pages",
+    "preview:pages": "next-on-pages dev",
     "test": "vitest",
     "test:watch": "jest --watch",
     "test:e2e": "pnpm exec playwright test --debug"

@@ -10,6 +10,7 @@ import Navbar from '../../components/NavBar/Navbar';
 import { notFound } from 'next/navigation';
 import { ProductSpecs } from '@/lib/api';
 
+export const runtime = 'edge';
 const naira = getSymbolFromCurrency('NGN');
 
 export default function ProductPage({ params }: { params: { slug: string } }) {
