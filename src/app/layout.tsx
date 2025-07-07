@@ -16,6 +16,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://fruitystore.kokeh.dev'),
   title: 'Fruity Store',
   description:
     'Your one-stop store for fresh fruits delivered to your doorstep',
@@ -50,7 +51,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Fruity Store',
     description: 'Fresh fruits delivered to your doorstep',
-    url: 'https://fruitstore.kokeh.dev',
+    url: 'https://fruitystore.kokeh.dev',
     siteName: 'Fruity Store',
     images: [{ url: '/images/og-image.png', width: 1200, height: 630 }],
     locale: 'en_NG',
