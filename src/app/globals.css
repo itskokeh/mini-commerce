@@ -24,6 +24,10 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  .focus\:ring-2:focus {
+    outline: none;
+    ring: 2px solid #f97316;
+  }
 }
 
 .custom-grid {
