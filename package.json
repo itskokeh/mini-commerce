@@ -8,8 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare:pages": "next-on-pages",
-    "preview:pages": "next-on-pages dev",
+    "prepare:pages": "next-on-pages --output=./dist",
     "test": "vitest",
     "test:watch": "jest --watch",
     "test:e2e": "pnpm exec playwright test --debug"
