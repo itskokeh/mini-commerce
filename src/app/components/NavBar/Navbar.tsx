@@ -1,4 +1,5 @@
-// src/components/NavBar/Navbar.tsx
+'use client';
+
 import Link from 'next/link';
 import SearchBtn from './Search';
 import ShoppingCart from './ShoppingCart';
