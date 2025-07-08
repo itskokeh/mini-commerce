@@ -77,12 +77,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <DataFunction />
-      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-primary-light`}
       >
+        <DataFunction />
         <QueryProvider>
           {children}
           <Footer />
