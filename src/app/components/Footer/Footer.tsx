@@ -1,7 +1,7 @@
-export default function Footer () {
+export default function Footer() {
   return (
-    <div>
-      <h2>Fruity<span className="text-accent">Store</span></h2>
-    </div>
-  )
+    <footer className="bg-primary-light p-4 text-center text-sm sm:text-base">
+      <p>&copy; 2025 Fruity Store. All rights reserved.</p>
+    </footer>
+  );
 }

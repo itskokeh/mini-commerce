@@ -38,7 +38,7 @@ export default function SearchPage() {
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
             placeholder="Search for fruits..."
-            className="w-full p-2 pl-10 border rounded-lg"
+            className="w-full p-3 sm:p-2 pl-10 border rounded-lg text-sm sm:text-base"
             aria-label="Search products"
           />
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" />
