@@ -1,8 +1,19 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import localFont from 'next/font/local';
 import './globals.css';
 import Footer from './components/Footer/Footer';
 import { QueryProvider } from '@/lib/queryClient';
+
+function DataFunction() {
+  return (
+    <Script
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      strategy="afterInteractive"
+      data-cf-beacon='{"token": "dfe9265becab4e4e86e4e99f71f6bfa2"}'
+    />
+  );
+}
 
 const geistSans = localFont({
   src: './fonts/GeistVF.woff',
@@ -66,6 +77,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <DataFunction />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-primary-light`}
       >
