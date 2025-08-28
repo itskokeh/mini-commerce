@@ -56,14 +56,14 @@ export default function ImageSlideshow({
       ))}
       <button
         onClick={goToPrevious}
-        className="absolute left top-1/2 -translate-y-1/2 bg-black/30 text-white p-6 focus:outline-none focus:ring-2 focus:ring-accent"
+        className="absolute left-0 top-1/2 -translate-y-1/2 bg-black/30 text-white p-6 focus:outline-none focus:ring-2 focus:ring-accent"
         aria-label="Previous image"
       >
         &lt;
       </button>
       <button
         onClick={goToNext}
-        className="absolute right top-1/2 -translate-y-1/2 bg-black/30 text-white p-6 focus:outline-none focus:ring-2 focus:ring-accent"
+        className="absolute right-0 top-1/2 -translate-y-1/2 bg-black/30 text-white p-6 focus:outline-none focus:ring-2 focus:ring-accent"
         aria-label="Next image"
       >
         &gt;
